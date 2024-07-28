@@ -1,0 +1,30 @@
+.q {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-content: start;
+  align-items: center;
+  gap: 0.5rem;
+
+  &::before {
+    content: '设备通讯';
+  }
+}
+
+.s {
+  position: relative;
+}
+
+.l {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.u {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.8rem;
+  color: #575757;
+}

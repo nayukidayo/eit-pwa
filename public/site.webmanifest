@@ -1,0 +1,39 @@
+{
+  "name": "EIT",
+  "short_name": "EIT",
+  "description": "EIT-PWA",
+  "id": "/",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "orientation": "landscape",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-wide.png",
+      "sizes": "1920x1050",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Homescreen of EIT PWA"
+    },
+    {
+      "src": "/screenshot-narrow.png",
+      "sizes": "1050x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Homescreen of EIT PWA"
+    }
+  ]
+}

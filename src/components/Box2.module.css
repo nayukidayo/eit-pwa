@@ -1,0 +1,9 @@
+.q::before {
+  content: '数据处理';
+}
+
+.t {
+  text-align: center;
+  color: var(--mantine-color-dimmed);
+  margin-bottom: var(--mantine-spacing-md);
+}

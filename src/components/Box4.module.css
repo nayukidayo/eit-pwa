@@ -1,0 +1,9 @@
+.q {
+  &::before {
+    content: 'EIT成像';
+  }
+}
+
+.c {
+  text-align: center;
+}

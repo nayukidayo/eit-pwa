@@ -1,0 +1,6 @@
+.q {
+  display: flex;
+  &::before {
+    content: '数据波形图';
+  }
+}

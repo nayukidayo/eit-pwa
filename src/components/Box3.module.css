@@ -1,0 +1,21 @@
+.q {
+  & > hr {
+    width: 100%;
+    grid-area: 3 / 1 / 4 / 3;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
+  }
+  &::before {
+    content: '数据标定';
+  }
+}
+
+.c {
+  text-align: center;
+}
+
+.t {
+  text-align: center;
+  color: var(--mantine-color-dimmed);
+  margin-bottom: var(--mantine-spacing-md);
+}
